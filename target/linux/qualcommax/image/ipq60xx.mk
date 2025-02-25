@@ -49,7 +49,7 @@ define Device/jdcloud_re-ss-01
 	$(call Device/FitImage)
 	$(call Device/EmmcImage)
 	DEVICE_VENDOR := JDCloud
-	DEVICE_MODEL := RE-SS-01
+	DEVICE_MODEL := AX1800 Pro
 	DEVICE_DTS_CONFIG := config@cp03-c2
 	DEVICE_DTS := ipq6000-re-ss-01
 	SOC := ipq6000
