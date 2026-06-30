@@ -204,6 +204,19 @@ define Device/netgear_wax610y
 endef
 TARGET_DEVICES += netgear_wax610y
 
+define Device/philips_ly1800
+	$(call Device/FitImage)
+	$(call Device/EmmcImage)
+	DEVICE_VENDOR := Philips
+	DEVICE_MODEL := LY1800 (Double Fish AX1800)
+	SOC := ipq6010
+	BLOCKSIZE := 64k
+	KERNEL_SIZE := 6144k
+	DEVICE_DTS_CONFIG := config@cp01-c1
+	DEVICE_PACKAGES := ipq-wifi-philips_ly1800
+endef
+TARGET_DEVICES += philips_ly1800
+
 define Device/qihoo_360v6
 	$(call Device/FitImage)
 	$(call Device/UbiFit)
