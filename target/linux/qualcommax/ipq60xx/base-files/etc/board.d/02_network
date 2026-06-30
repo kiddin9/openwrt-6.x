@@ -35,6 +35,7 @@ ipq60xx_setup_interfaces()
 		;;
 	jdcloud,re-ss-01|\
 	jdcloud,re-cs-07|\
+	philips,ly1800|\
 	anysafe,e1|\
 	cmiot,ax18|\
 	redmi,ax5|\
