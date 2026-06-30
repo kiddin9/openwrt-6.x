@@ -27,6 +27,7 @@ case "$FIRMWARE" in
 	netgear,wax214|\
 	netgear,wax610|\
 	netgear,wax610y|\
+	philips,ly1800|\
 	qihoo,360v6|\
 	redmi,ax5|\
 	xiaomi,ax1800|\
